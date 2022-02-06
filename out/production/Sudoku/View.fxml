@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="314.0" prefWidth="276.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <TextField fx:id="id00" alignment="CENTER" focusTraversable="false" layoutX="29.0" layoutY="20.0" onInputMethodTextChanged="#inputNumber" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id01" alignment="CENTER" focusTraversable="false" layoutX="53.0" layoutY="20.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id02" alignment="CENTER" focusTraversable="false" layoutX="77.0" layoutY="20.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id10" alignment="CENTER" focusTraversable="false" layoutX="29.0" layoutY="45.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id11" alignment="CENTER" focusTraversable="false" layoutX="53.0" layoutY="45.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id12" alignment="CENTER" focusTraversable="false" layoutX="77.0" layoutY="45.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id20" alignment="CENTER" focusTraversable="false" layoutX="29.0" layoutY="70.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id21" alignment="CENTER" focusTraversable="false" layoutX="53.0" layoutY="70.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id22" alignment="CENTER" focusTraversable="false" layoutX="77.0" layoutY="70.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id30" alignment="CENTER" focusTraversable="false" layoutX="29.0" layoutY="97.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id31" alignment="CENTER" focusTraversable="false" layoutX="53.0" layoutY="97.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id32" alignment="CENTER" focusTraversable="false" layoutX="77.0" layoutY="97.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id40" alignment="CENTER" focusTraversable="false" layoutX="29.0" layoutY="122.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id41" alignment="CENTER" focusTraversable="false" layoutX="53.0" layoutY="122.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id42" alignment="CENTER" focusTraversable="false" layoutX="77.0" layoutY="122.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id50" alignment="CENTER" focusTraversable="false" layoutX="29.0" layoutY="147.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id51" alignment="CENTER" focusTraversable="false" layoutX="53.0" layoutY="147.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id52" alignment="CENTER" focusTraversable="false" layoutX="77.0" layoutY="147.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id60" alignment="CENTER" focusTraversable="false" layoutX="29.0" layoutY="174.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id61" alignment="CENTER" focusTraversable="false" layoutX="53.0" layoutY="174.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id62" alignment="CENTER" focusTraversable="false" layoutX="77.0" layoutY="174.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id70" alignment="CENTER" focusTraversable="false" layoutX="29.0" layoutY="199.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id71" alignment="CENTER" focusTraversable="false" layoutX="53.0" layoutY="199.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id72" alignment="CENTER" focusTraversable="false" layoutX="77.0" layoutY="199.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id80" alignment="CENTER" focusTraversable="false" layoutX="29.0" layoutY="224.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id81" alignment="CENTER" focusTraversable="false" layoutX="53.0" layoutY="224.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id82" alignment="CENTER" focusTraversable="false" layoutX="77.0" layoutY="224.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id03" alignment="CENTER" focusTraversable="false" layoutX="102.0" layoutY="20.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id04" alignment="CENTER" focusTraversable="false" layoutX="126.0" layoutY="20.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id05" alignment="CENTER" focusTraversable="false" layoutX="150.0" layoutY="20.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id13" alignment="CENTER" focusTraversable="false" layoutX="102.0" layoutY="45.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id14" alignment="CENTER" focusTraversable="false" layoutX="126.0" layoutY="45.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id15" alignment="CENTER" focusTraversable="false" layoutX="150.0" layoutY="45.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id23" alignment="CENTER" focusTraversable="false" layoutX="102.0" layoutY="70.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id24" alignment="CENTER" focusTraversable="false" layoutX="126.0" layoutY="70.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id25" alignment="CENTER" focusTraversable="false" layoutX="150.0" layoutY="70.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id33" alignment="CENTER" focusTraversable="false" layoutX="102.0" layoutY="97.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id34" alignment="CENTER" focusTraversable="false" layoutX="126.0" layoutY="97.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id35" alignment="CENTER" focusTraversable="false" layoutX="150.0" layoutY="97.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id43" alignment="CENTER" focusTraversable="false" layoutX="102.0" layoutY="122.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id44" alignment="CENTER" focusTraversable="false" layoutX="126.0" layoutY="122.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id45" alignment="CENTER" focusTraversable="false" layoutX="150.0" layoutY="122.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id53" alignment="CENTER" focusTraversable="false" layoutX="102.0" layoutY="147.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id54" alignment="CENTER" focusTraversable="false" layoutX="126.0" layoutY="147.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id55" alignment="CENTER" focusTraversable="false" layoutX="150.0" layoutY="147.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id63" alignment="CENTER" focusTraversable="false" layoutX="102.0" layoutY="174.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id64" alignment="CENTER" focusTraversable="false" layoutX="126.0" layoutY="174.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id65" alignment="CENTER" focusTraversable="false" layoutX="150.0" layoutY="174.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id73" alignment="CENTER" focusTraversable="false" layoutX="102.0" layoutY="199.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id74" alignment="CENTER" focusTraversable="false" layoutX="126.0" layoutY="199.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id75" alignment="CENTER" focusTraversable="false" layoutX="150.0" layoutY="199.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id83" alignment="CENTER" focusTraversable="false" layoutX="102.0" layoutY="224.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id84" alignment="CENTER" focusTraversable="false" layoutX="126.0" layoutY="224.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id85" alignment="CENTER" focusTraversable="false" layoutX="150.0" layoutY="224.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id06" alignment="CENTER" focusTraversable="false" layoutX="175.0" layoutY="20.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id07" alignment="CENTER" focusTraversable="false" layoutX="199.0" layoutY="20.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id08" alignment="CENTER" focusTraversable="false" layoutX="223.0" layoutY="20.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id16" alignment="CENTER" focusTraversable="false" layoutX="175.0" layoutY="45.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id17" alignment="CENTER" focusTraversable="false" layoutX="199.0" layoutY="45.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id18" alignment="CENTER" focusTraversable="false" layoutX="223.0" layoutY="45.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id26" alignment="CENTER" focusTraversable="false" layoutX="175.0" layoutY="70.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id27" alignment="CENTER" focusTraversable="false" layoutX="199.0" layoutY="70.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id28" alignment="CENTER" focusTraversable="false" layoutX="223.0" layoutY="70.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id36" alignment="CENTER" focusTraversable="false" layoutX="175.0" layoutY="97.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id37" alignment="CENTER" focusTraversable="false" layoutX="199.0" layoutY="97.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id38" alignment="CENTER" focusTraversable="false" layoutX="223.0" layoutY="97.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id46" alignment="CENTER" focusTraversable="false" layoutX="175.0" layoutY="122.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id47" alignment="CENTER" focusTraversable="false" layoutX="199.0" layoutY="122.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id48" alignment="CENTER" focusTraversable="false" layoutX="223.0" layoutY="122.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id56" alignment="CENTER" focusTraversable="false" layoutX="175.0" layoutY="147.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id57" alignment="CENTER" focusTraversable="false" layoutX="199.0" layoutY="147.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id58" alignment="CENTER" focusTraversable="false" layoutX="223.0" layoutY="147.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id66" alignment="CENTER" focusTraversable="false" layoutX="175.0" layoutY="174.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id67" alignment="CENTER" focusTraversable="false" layoutX="199.0" layoutY="174.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id68" alignment="CENTER" focusTraversable="false" layoutX="223.0" layoutY="174.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id76" alignment="CENTER" focusTraversable="false" layoutX="175.0" layoutY="199.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id77" alignment="CENTER" focusTraversable="false" layoutX="199.0" layoutY="199.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id78" alignment="CENTER" focusTraversable="false" layoutX="223.0" layoutY="199.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id86" alignment="CENTER" focusTraversable="false" layoutX="175.0" layoutY="224.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id87" alignment="CENTER" focusTraversable="false" layoutX="199.0" layoutY="224.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <TextField fx:id="id88" alignment="CENTER" focusTraversable="false" layoutX="223.0" layoutY="224.0" prefHeight="25.0" prefWidth="25.0" style="-fx-alignment: center; -fx-border-color: black; -fx-text-fill: black" />
+      <Button focusTraversable="false" layoutX="155.0" layoutY="268.0" mnemonicParsing="false" onAction="#buttonSolve" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #ccc;" text="Solve" /> 
+      <Button focusTraversable="false" layoutX="20.0" layoutY="268.0" mnemonicParsing="false" onAction="#buttonReset" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #ccc;" text="Reset" />
+   </children>
+</AnchorPane>
